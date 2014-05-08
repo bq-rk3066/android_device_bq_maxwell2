@@ -36,6 +36,10 @@ PRODUCT_COPY_FILES += \
     device/bq/maxwell2/prebuilt/gps.conf:system/etc/gps.conf \
     device/bq/maxwell2/prebuilt/gpsconfig.xml:system/etc/gps/gpsconfig.xml \
     device/bq/maxwell2/prebuilt/updater:obj/EXECUTABLES/updater_intermediates/updater
+    
+# Sensors
+PRODUCT_PACKAGES += \
+    sensors.rk30board
 	
 # Default config
 PRODUCT_PROPERTY_OVERRIDES += \
