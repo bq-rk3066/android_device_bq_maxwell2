@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
 
 # Rootdir blob
 PRODUCT_COPY_FILES += \
+    device/bq/maxwell2/rootdir/init.device.rc:root/init.device.rc \
     device/bq/maxwell2/rootdir/rk30xxnand_ko.ko.3.0.36+:root/rk30xxnand_ko.ko.3.0.36+
 
 # Prebuilt
